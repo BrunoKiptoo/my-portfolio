@@ -27,7 +27,52 @@
     transition: color 0.3s ease-in-out; /* Add a smooth transition effect */
     /* Add more hover styles as needed */
   }
+
+/* CSS */
+.btn-custom {
+    background-color: transparent;
+    color: #00FFFC;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-custom:hover {
+    background-color: #00FFEF;
+    color: #fff;
+  }
+
+  /* app.css */
+body {
+    background-color: #000;
+    font-family: Orbitron, sans-serif;
+  }
   
   
   
+  .peach-border {
+    width: 72px; /* Set the desired width */
+    height: 72px; /* Set the desired height */
+    border-radius: 50%; /* Create a circular shape */
+    background-color: #FFCBA4; /* Set the background color to peach */
+    overflow: hidden; /* Clip any content that goes beyond the circle */
+  }
+
   
+  .font-face-arial-narrow {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px; /* Adjust the font size as needed */
+    font-weight: bold;
+    line-height: 0.8;
+    color:#fff
+  }
+  
+
+  .font-face-arial-narroww {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px; /* Adjust the font size as needed */
+    font-weight: bold;
+    line-height: 0.5;
+  }
