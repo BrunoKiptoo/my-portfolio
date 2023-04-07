@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* custom.css */
+.my-custom-class {
+    height: 4000px;
+  }
+  
+ /* Custom styles for the section container */
+.section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center
+  }
+  
+  
+  
+/* Custom styles for the Nav component */
+.nav-link {
+    /* Add your default styles for the links */
+    color: #FFFFFF; /* Default text color */
+    /* Add more default styles as needed */
+  }
+  
+  .nav-link:hover {
+    /* Add your hover styles for the links */
+    color: #00FF00; /* Hover text color */
+    transition: color 0.3s ease-in-out; /* Add a smooth transition effect */
+    /* Add more hover styles as needed */
+  }
+  
+  
+  
+  
