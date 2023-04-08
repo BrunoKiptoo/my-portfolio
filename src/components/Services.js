@@ -2,7 +2,7 @@ import React from 'react'
 import {BsArrowUpRight} from 'react-icons/bs';
 import {motion} from 'framer-motion';
 import { fadeIn } from '../variants';
-import aboutImage from '../Assets/image6.jpg'; // Import the image file
+import aboutImage from '../Assets/image9.jpg'; // Import the image file
 const services =[
   {
     name: 'UI/UX Design',
