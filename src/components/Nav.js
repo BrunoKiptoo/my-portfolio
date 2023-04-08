@@ -13,7 +13,7 @@ function Nav() {
           activeclass='active' 
           smooth={true}
           spy={true}
-          offset={-250}
+          offset={-200}
           className = " nav-link cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
             <BiHomeAlt />
           </Link>

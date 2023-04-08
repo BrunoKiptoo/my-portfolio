@@ -17,7 +17,7 @@ function Banner() {
   initial='hidden'
   whileInView={'show'}
   viewport={{once: false, amount: 0.7}} 
-  className="text-[36px] font-bold leading-[0.8] lg:text-[72px] font-face-arial-narrow mb-9">
+  className="text-[36px] font-bold leading-[0.8] lg:text-[72px]  font-secondary text-white mb-6">
     BRUNO <span>KIPTOO</span>
 </motion.h1>
 
@@ -26,14 +26,14 @@ function Banner() {
            initial='hidden'
            whileInView={'show'}
            viewport={{once: false, amount: 0.7}} 
-          className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]  font-face-arial-narroww">
+          className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] ">
             <span className= 'text-white mr-4'>I am a</span>
             <TypeAnimation sequence={[
               'Developer',
               2000,
               'Designer',
               2000,
-              'Youtuber',
+              'Collaborator',
               2000,
               ]}
               speed={50}
@@ -48,10 +48,9 @@ function Banner() {
            initial='hidden'
            whileInView={'show'}
            viewport={{once: false, amount: 0.7}} 
-          className="mb-8 max-w-lg mx-auto lg:mx-0 text-white">
+          className="mb-8 max-w-lg mx-auto lg:mx-0 text-white font-secondary text-[18px] font-semibold">
             As a skilled full-stack developer, I specialize in Ruby on Rails and React.js. 
-            With expertise in both front-end and back-end technologies, I am well-versed in building robust and dynamic web applications. 
-            I strive for clean and efficient code, and I am committed to delivering high-quality solutions that meet user needs.
+            
           </motion.p>
           <motion.div 
            variants={fadeIn('up',0.6)}
