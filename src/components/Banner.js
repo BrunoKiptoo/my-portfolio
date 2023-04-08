@@ -66,17 +66,24 @@ function Banner() {
   initial='hidden'
   whileInView={'show'}
   viewport={{once: false, amount: 0.7}}  
+  // style={{color: 'white'}}
   className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
-  style={{color: 'white'}}
+  
 >
-  <a href= "https://www.linkedin.com/in/bruno-kiptoo-906880177/">
-    <FaLinkedin/>
+<a href="https://www.linkedin.com/in/bruno-kiptoo-906880177/">
+    <div className="custom-icon">
+      <FaLinkedin />
+    </div>
   </a>
-  <a href= "https://github.com/BrunoKiptoo">
-    <FaGithub/>
+  <a href="https://github.com/BrunoKiptoo">
+    <div className="custom-icon">
+      <FaGithub />
+    </div>
   </a>
-  <a href= "https://twitter.com/zamani_bruno">
-    <FaTwitter/>
+  <a href="https://twitter.com/zamani_bruno">
+    <div className="custom-icon">
+      <FaTwitter />
+    </div>
   </a>
 </motion.div>
 
