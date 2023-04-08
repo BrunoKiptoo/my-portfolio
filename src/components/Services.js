@@ -87,7 +87,7 @@ function Services() {
   <a href="#" class="btn w-9 h-9 mb-2 lg:mb-[42px] flex justify-center items-center">
     <BsArrowUpRight class="arrow-icon" />
   </a>
-  <a href="#" class="text-gradient text-xs lg:text-sm">
+  <a href="#" class="text-gradient text-xs lg:text-sm text-accent">
     {link}
   </a>
 </div>
