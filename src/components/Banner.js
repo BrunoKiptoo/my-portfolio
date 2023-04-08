@@ -1,6 +1,6 @@
 import React from 'react';
-import image from '../Assets/image1.jpg';
-import { FaGithub, FaYoutube, FaDribbble, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import image from '../Assets/image5.jpg';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { TypeAnimation} from 'react-type-animation'
 import { motion } from 'framer-motion';
 import {fadeIn} from '../variants'

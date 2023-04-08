@@ -42,7 +42,7 @@ module.exports = {
       backgroundImage: {
         site: "url('./src/Assets/image2.jpg')", // set site background image URL
         // about: "url('./src/Assets/image3.jpeg')", // set about background image URL
-        services: "url('./src/Assets/image4.jpg')", // set services background image URL
+        // services: "url('./src/Assets/image4.jpg')", // set services background image URL
       },
     },
   },

@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion';
 import { fadeIn } from '../variants';
-import aboutImage from '../Assets/image3.jpeg'; // Import the image file
+import aboutImage from '../Assets/image14.jpg'; // Import the image file
 
 
 function About() {
@@ -53,7 +53,7 @@ function About() {
             className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={13} duration={3}/> : null}
+                  {inView ? <CountUp start={0} end={3} duration={3}/> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br/>
@@ -62,8 +62,8 @@ function About() {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={15} duration={3}/> : null}
-                  k+
+                  {inView ? <CountUp start={0} end={300} duration={3}/> : null}
+                  {/* k+ */}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects <br/>
@@ -72,8 +72,8 @@ function About() {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={13} duration={3}/> : null}
-                  k+
+                  {inView ? <CountUp start={0} end={40} duration={3}/> : null}
+                  {/* k+ */}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Satisfied <br/>
@@ -84,7 +84,7 @@ function About() {
             <div 
             style={{color: 'white'}}
             className="flex gap-x-8 items-center font-secondary font-bold text-[20px]">
-              <button className="btn btn-lg">Contact me</button>
+              <button className="btn btn-lg custom-button">Contact me</button>
               <a href="#" className="text-gradient font-primary btn-link font-secondary font-bold text-[20px]">
                 My Portfolio
               </a>
