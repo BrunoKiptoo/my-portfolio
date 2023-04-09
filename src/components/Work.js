@@ -60,7 +60,7 @@ function Work() {
               src={img2} 
               alt=""/>
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-black font-bold font-secondary">
-                <span className="text-gradient">Design</span>
+                <span className="text-gradient"> UI/UX Design</span>
                 </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white text-black font-bold font-secondary">ReadTopia</span>
