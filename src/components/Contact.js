@@ -219,7 +219,7 @@ function Contact() {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           <motion.div
-            variants={fadeIn('left', 0.5)}
+            variants={fadeIn('right', 0.5)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
