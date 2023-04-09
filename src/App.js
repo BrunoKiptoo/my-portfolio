@@ -19,7 +19,7 @@ function App() {
       <Services />
       <Work />
       <Contact />
-      <div className="my-custom-class"></div>
+      {/* <div className="my-custom-class"></div> */}
     </div>
   );
 }
