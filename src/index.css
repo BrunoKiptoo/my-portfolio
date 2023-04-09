@@ -119,3 +119,21 @@ body {
     /* Add any additional styles as needed */
   }
   
+
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .blink-animation {
+    animation: blink 3s infinite;
+  }
+  
