@@ -23,10 +23,10 @@ import React from 'react';
 import logo from '../Assets/logo.png';
 
 function Header() {
-  const scrollToWork = () => {
-    const workSection = document.getElementById("work");
-    if (workSection) {
-      workSection.scrollIntoView({ behavior: "smooth" });
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -37,7 +37,7 @@ function Header() {
           <a href="#">
             <img src={logo} alt="" style={{ width: '300px', height: 'auto' }} />
           </a>
-          <button className="btn btn-sm btn-custom font-secondary font-bold blink-animation" onClick={scrollToWork}>
+          <button className="btn btn-sm text-white font-secondary font-semibold blink-animation" onClick={scrollToContact}>
             Work With Me
           </button>
         </div>
