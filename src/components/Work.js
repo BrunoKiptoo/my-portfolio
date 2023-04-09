@@ -30,7 +30,7 @@ function Work() {
               With attention to detail and a commitment to excellence, I strive to create
               meaningful solutions that meet client's needs and exceed expectations.
               </p>
-              <button className="btn btn-sm custom-button">View all projects</button>
+              <a href="https://github.com/BrunoKiptoo" className="btn btn-sm custom-button">View all projects</a>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-white/30 w-full h-full absolute z-40 transition-all duration-300"></div>
