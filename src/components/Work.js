@@ -2,9 +2,9 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { fadeIn } from '../variants'
 
-import img1 from '../Assets/image11.jpg'
-import img2 from '../Assets/image12.png'
-import img3 from '../Assets/image15.jpg'
+import img1 from '../Assets/chatiffy.png'
+import img2 from '../Assets/readtopia.png'
+import img3 from '../Assets/oracle.png'
 
 function Work() {
 
@@ -32,17 +32,17 @@ function Work() {
               </p>
               <a href="https://github.com/BrunoKiptoo" className="btn btn-sm custom-button">View all projects</a>
             </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl font-bold font-secondary">
               <div className="group-hover:bg-white/30 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
               className="group-hover:scale-125 transition-all duration-500" 
               src={img1} 
               alt=""/>
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Back-End Development</span>
                 </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white">Chattify</span>
               </div>
             </div>
           </motion.div>
@@ -59,11 +59,11 @@ function Work() {
               className="group-hover:scale-125 transition-all duration-500" 
               src={img2} 
               alt=""/>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-black font-bold font-secondary">
+                <span className="text-gradient">Design</span>
                 </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white text-black font-bold font-secondary">ReadTopia</span>
               </div>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -72,11 +72,11 @@ function Work() {
               className="group-hover:scale-125 transition-all duration-500" 
               src={img3} 
               alt=""/>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-black font-bold font-secondary">
+                <span className="text-gradient font-bold">UI/UX Design </span>
                 </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-black font-bold font-secondary">The Film Oracle</span>
                 
               </div>
               
