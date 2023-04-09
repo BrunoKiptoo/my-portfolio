@@ -7,6 +7,8 @@ import img2 from '../Assets/image12.png'
 import img3 from '../Assets/image15.jpg'
 
 function Work() {
+
+  
   return (
     <section className = 'section'id='work'>
       <div className="container mx-auto">

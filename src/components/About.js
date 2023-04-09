@@ -7,6 +7,14 @@ import aboutImage from '../Assets/image14.jpg'; // Import the image file
 
 
 function About() {
+
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }; 
+
   const [ref, inView] = useInView({
     threshold: 0.5,
   })
@@ -84,8 +92,8 @@ function About() {
             <div 
             style={{color: 'white'}}
             className="flex gap-x-8 items-center font-secondary font-bold text-[20px]">
-              <button className="btn btn-lg custom-button">Contact me</button>
-              <a href="#" className="text-gradient font-primary btn-link font-secondary font-bold text-[20px]">
+              <button className="btn btn-lg custom-button blink-animation" onClick={scrollToContact}>Contact me</button>
+              <a href="https://github.com/BrunoKiptoo" className="text-gradient font-primary btn-link font-secondary font-bold text-[20px]">
                 My Portfolio
               </a>
             </div>

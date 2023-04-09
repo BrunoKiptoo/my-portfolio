@@ -37,6 +37,14 @@ const services =[
 ]
 
 function Services() {
+
+  const scrollToWork = () => {
+    const workSection = document.getElementById("work");
+    if (workSection) {
+      workSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }; 
+
   return (
     <section className='section' id='services'>
     <div className="container mx-auto">
@@ -60,7 +68,7 @@ function Services() {
           <h3 className="h3 text-lg lg:text-2xl max-w-[455px] mb-8 lg:mb-16 font-secondary" style={{color: 'white'}}>
           Freelance Full Stack Developer with expertise in web development, creating innovative solutions, and delivering high-quality code.
           </h3>
-          <button className="btn btn-sm text-base custom-button font-secondary lg:text-lg font-semibold" style={{color: '#000'}}>
+          <button className="btn btn-sm text-base custom-button font-secondary lg:text-lg font-semibold blink-animation" onClick={scrollToWork} style={{color: '#000'}}>
             See my work
           </button>
         </motion.div>
